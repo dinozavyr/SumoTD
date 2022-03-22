@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-02-24 17:56:42 by Eclipse SUMO sumo Version 1.10.0
+<!-- generated on 2022-03-20 20:22:34 by Eclipse SUMO sumo Version v1_12_0+1541-77deb7a3227
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/home/tedy/Sumo/myscript/simulation/updated.net.xml"/>
-        <route-files value="/home/tedy/Sumo/Data/Out/DUAout.xml"/>
-        <additional-files value="/home/tedy/Sumo/myscript/simulation/additional.xml,/home/tedy/Sumo/Data/Out/Vtype.xml"/>
+        <net-file value="/home/radoslav/PycharmProjects/SumoTD/simulation/updated.net.xml"/>
+        <route-files value="/home/radoslav/PycharmProjects/SumoTD/simulation/Data/Out/DUAout.xml"/>
+        <additional-files value="/home/radoslav/PycharmProjects/SumoTD/simulation/additional.xml,/home/radoslav/PycharmProjects/SumoTD/simulation/Data/Out/Vtype.xml"/>
     </input>
 
     <output>
-        <statistic-output value="/home/tedy/Sumo/myscript/simulation/stat.xml"/>
+        <statistic-output value="/home/radoslav/PycharmProjects/SumoTD/simulation/stat.xml"/>
     </output>
 
     <time>
@@ -30,12 +30,24 @@
 
     <report>
         <verbose value="true"/>
-        <log value="/home/tedy/Sumo/myscript/simulation/log.xml"/>
+        <log value="/home/radoslav/PycharmProjects/SumoTD/simulation/log.xml"/>
         <duration-log.statistics value="true"/>
     </report>
 
     <gui_only>
-        <gui-settings-file value="/home/tedy/Sumo/myscript/simulation/osm.view.xml"/>
+        <gui-settings-file value="/home/radoslav/PycharmProjects/SumoTD/simulation/osm.view.xml"/>
     </gui_only>
 
 </configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="69254" inserted="69254" running="0" waiting="0"/>
+    <teleports total="22" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="22" emergencyStops="5"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics routeLength="1529.16" speed="13.36" duration="117.58" waitingTime="19.29" timeLoss="53.11" departDelay="2.60" departDelayWaiting="-1.00" totalTravelTime="8142993.00" totalDepartDelay="179839.04"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

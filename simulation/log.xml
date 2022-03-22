@@ -1,4 +1,4 @@
-Loading net-file from '/home/tedy/Sumo/myscript/simulation/updated.net.xml' ... done (730ms).
+Loading net-file from '/home/radoslav/PycharmProjects/SumoTD/simulation/updated.net.xml' ... done (282ms).
 Warning: At actuated tlLogic 'cluster_420277260_518459589', linkIndex 2 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_420277260_518459589', linkIndex 3 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_420277260_518459589', linkIndex 4 has no controlling detector.
@@ -15,47 +15,87 @@ Warning: At actuated tlLogic 'cluster_576971355_993735117', linkIndex 17 has no 
 Warning: At actuated tlLogic 'joinedS_2', linkIndex 2 has no controlling detector.
 Warning: At actuated tlLogic 'joinedS_2', linkIndex 3 has no controlling detector.
 Warning: At actuated tlLogic 'joinedS_2', linkIndex 4 has no controlling detector.
-Loading additional-files from '/home/tedy/Sumo/myscript/simulation/additional.xml' ... done (3ms).
-Loading additional-files from '/home/tedy/Sumo/Data/Out/Vtype.xml' ... done (16ms).
+Loading additional-files from '/home/radoslav/PycharmProjects/SumoTD/simulation/additional.xml' ... done (2ms).
+Loading additional-files from '/home/radoslav/PycharmProjects/SumoTD/simulation/Data/Out/Vtype.xml' ... done (702ms).
 Loading done.
-Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '157593575#1_0_889606511#0_1.qPKW.450.62'; collision with vehicle '696003182_0_889606511#0_0.qPKW.450.84', lane='161137084#1_0', gap=-0.14, time=28198.00 stage=move.
-Warning: Vehicle '157593575#1_0_889606511#0_1.qPKW.450.62' ends teleporting on edge '161137084#2', time 28198.00.
-Warning: Teleporting vehicle '705407675#0_0_161226595_1.1.qPKW.450.28'; collision with vehicle '161226594#0_1_615690096_1.qPKW.450.148', lane='-161160022#0-AddedOffRampEdge_1', gap=-0.40, time=29543.00 stage=move.
-Warning: Vehicle '705407675#0_0_161226595_1.1.qPKW.450.28' ends teleporting on edge '157623998#0', time 29543.00.
-Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.11' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=30261.00.
-Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.11' performs emergency stop at the end of lane '135454816#4_0' because of a red traffic light (decel=-11.21, offset=2.21), time=30261.00.
-Warning: Teleporting vehicle '304500794#0_0_39349403#0_2.qPKW.500.21'; collision with vehicle '25625190#0_1_39349403#0_2.qPKW.500.16', lane='161082233#11_1', gap=-0.30, time=31400.00 stage=move.
-Warning: Vehicle '304500794#0_0_39349403#0_2.qPKW.500.21' ends teleporting on edge '91936393#0', time 31400.00.
-Warning: Teleporting vehicle '161226594#0_2_889606511#0_2.qPKW.500.42'; collision with vehicle '696003182_0_889606511#0_0.qPKW.500.113', lane='161137084#1_1', gap=-0.04, time=32518.00 stage=move.
-Warning: Vehicle '161226594#0_2_889606511#0_2.qPKW.500.42' ends teleporting on edge '161137084#2', time 32518.00.
+Simulation version v1_12_0+1541-77deb7a3227 started with time: 0.00
+Warning: Teleporting vehicle '696003182_0_889606511#0_0.qPKW.450.198'; collision with vehicle '157593575#1_0_889606511#0_1.qPKW.450.150', lane='161137084#1_1', gap=-0.05, time=29790.00 stage=move.
+Warning: Vehicle '696003182_0_889606511#0_0.qPKW.450.198' ends teleporting on edge '161137084#2', time=29790.00.
+Warning: Teleporting vehicle '696003182_0_889606511#0_0.qPKW.450.203'; collision with vehicle '696003182_0_889606511#0_0.qPKW.450.204', lane='161137084#1_0', gap=-0.25, time=29873.00 stage=move.
+Warning: Vehicle '696003182_0_889606511#0_0.qPKW.450.203' ends teleporting on edge '161137084#2', time=29873.00.
+Warning: Vehicle '-157593576#1_0_39349403#0_0.qPKW.500.10' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=30610.00.
+Warning: Vehicle '-205321873#2_0_-337734044#8_0.qPKW.500.8' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=30678.00.
+Warning: Vehicle '-205321873#2_0_-337734044#8_0.qPKW.500.8' performs emergency stop at the end of lane '161082232#2_0' because of a red traffic light (decel=-16.02, offset=6.79), time=30678.00.
+Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.64' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=31372.00.
+Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.64' performs emergency stop at the end of lane '135454816#4_0' because of a red traffic light (decel=-11.82, offset=2.82), time=31372.00.
 Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.140' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=32968.00.
-Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.140' performs emergency stop at the end of lane '135454816#4_0' because of a red traffic light (decel=-12.01, offset=3.01), time=32968.00.
-Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.600.20'; collision with vehicle '35974132#0_0_161226595_2.qPKW.600.40', lane='136100531#0_1', gap=-0.24, time=36764.00 stage=move.
-Warning: Vehicle '35974132#0_0_161226595_0.qPKW.600.20' ends teleporting on edge '660944417#0', time 36764.00.
-Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.600.32'; collision with vehicle '35974132#0_0_161226595_2.qPKW.600.66', lane='135438818#0_1', gap=-0.59, time=37282.00 stage=move.
-Warning: Vehicle '35974132#0_0_161226595_0.qPKW.600.32' ends teleporting on edge '161160022#0-AddedOffRampEdge', time 37282.00.
-Warning: Teleporting vehicle '30061694#0_0_161226595_0.qPKW.650.5'; collision with vehicle '30061694#0_2_889606511#0_2.qPKW.650.31', lane='30061694#0_2', gap=-0.13, time=41563.00 stage=move.
-Warning: Vehicle '30061694#0_0_161226595_0.qPKW.650.5' ends teleporting on edge '161137082', time 41563.00.
-Warning: Teleporting vehicle '136100518#0_1_39349403#0_2.qPKW.700.49'; collision with vehicle '136100518#0_1_39349403#0_2.qPKW.700.50', lane='91936393#1_1', gap=-0.30, time=43552.00 stage=move.
-Warning: Vehicle '136100518#0_1_39349403#0_2.qPKW.700.49' ends teleporting on edge '39349403#0', time 43552.00.
-Warning: Teleporting vehicle '696003182_0_889606511#0_0.qPKW.700.114'; collision with vehicle '161226594#0_2_889606511#0_2.qPKW.700.25', lane='161137084#1_1', gap=-0.23, time=44680.00 stage=move.
-Warning: Vehicle '696003182_0_889606511#0_0.qPKW.700.114' ends teleporting on edge '161137084#2', time 44680.00.
-Warning: Teleporting vehicle '322215469#0_0_157593568#0_0.qPKW.750.146'; collision with vehicle '322215469#0_0_157593568#0_0.qPKW.750.145', lane='161082232#2_1', gap=-0.03, time=47642.00 stage=move.
-Warning: Vehicle '322215469#0_0_157593568#0_0.qPKW.750.146' ends teleporting on edge '136100513#0', time 47642.00.
-Warning: Teleporting vehicle '87385427#3_0_39349403#0_1.qPKW.800.20'; collision with vehicle '-330203111#1_0_39349403#0_0.qPKW.800.9', lane='91936393#1_0', gap=-0.09, time=48751.00 stage=move.
-Warning: Vehicle '87385427#3_0_39349403#0_1.qPKW.800.20' ends teleporting on edge '39349403#0', time 48751.00.
+Warning: Vehicle '437256225#2_0_-85652236#5_0.qPKW.500.140' performs emergency stop at the end of lane '135454816#4_0' because of a red traffic light (decel=-13.24, offset=4.00), time=32968.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.600.10'; collision with vehicle '35974132#0_0_161226595_2.qPKW.600.21', lane='136100531#0_1', gap=-0.23, time=36420.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_0.qPKW.600.10' ends teleporting on edge '660944417#0', time=36420.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.600.20'; collision with vehicle '35974132#0_0_161226595_2.qPKW.600.40', lane='136100531#0_0', gap=-0.24, time=36767.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_0.qPKW.600.20' ends teleporting on edge '660944417#0', time=36767.00.
+Warning: Teleporting vehicle '-330203111#1_0_39349403#0_0.qPKW.600.44'; collision with vehicle '988803714#2_0_39349403#0_2.qPKW.600.29', lane='91936393#1_0', gap=-0.27, time=38894.00 stage=move.
+Warning: Vehicle '-330203111#1_0_39349403#0_0.qPKW.600.44' ends teleporting on edge '39349403#0', time=38894.00.
+Warning: Teleporting vehicle '439645279#5_0_161226595_1.qPKW.600.47'; collision with vehicle '35974132#0_0_161226595_2.qPKW.650.3', lane='135438818#0_1', gap=-0.09, time=39145.00 stage=move.
+Warning: Vehicle '439645279#5_0_161226595_1.qPKW.600.47' ends teleporting on edge '161160022#0-AddedOffRampEdge', time=39145.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.650.31'; collision with vehicle '35974132#0_0_161226595_2.qPKW.650.68', lane='135438818#0_0', gap=-0.30, time=40227.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_0.qPKW.650.31' ends teleporting on edge '161160022#0-AddedOffRampEdge', time=40227.00.
+Warning: Teleporting vehicle '696003182_0_889606511#0_0.qPKW.650.56'; collision with vehicle '157593575#1_0_889606511#0_1.qPKW.650.48', lane='161137084#1_2', gap=-0.03, time=40529.00 stage=move.
+Warning: Vehicle '696003182_0_889606511#0_0.qPKW.650.56' ends teleporting on edge '161137084#2', time=40529.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_2.qPKW.700.74'; collision with vehicle '35974132#0_0_161226595_0.qPKW.700.33', lane='136100531#0_0', gap=-0.44, time=43431.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_2.qPKW.700.74' ends teleporting on edge '660944417#0', time=43431.00.
+Warning: Teleporting vehicle '555903535#0_0_39349403#0_1.qPKW.700.114'; collision with vehicle '555903535#0_0_39349403#0_1.qPKW.700.113', lane='91936411_0', gap=-0.41, time=44671.00 stage=move.
+Warning: Vehicle '555903535#0_0_39349403#0_1.qPKW.700.114' ends teleporting on edge '91936393#0', time=44671.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.750.22'; collision with vehicle '35974132#0_0_161226595_2.qPKW.750.48', lane='136100531#0_1', gap=-0.28, time=45893.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_0.qPKW.750.22' ends teleporting on edge '660944417#0', time=45893.00.
 Warning: Vehicle '-157593576#1_0_-337734044#8_0.qPKW.800.19' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=49195.00.
-Warning: Vehicle '-157593576#1_0_-337734044#8_0.qPKW.800.19' performs emergency stop at the end of lane '161082232#2_0' because of a red traffic light (decel=-13.38, offset=4.38), time=49195.00.
-Warning: Teleporting vehicle '-330203111#1_0_39349403#0_0.qPKW.800.33'; collision with vehicle '135454822#4-AddedOffRampEdge_1_39349403#0_2.qPKW.800.40', lane='161082233#11_2', gap=-0.25, time=49790.00 stage=move.
-Warning: Vehicle '-330203111#1_0_39349403#0_0.qPKW.800.33' ends teleporting on edge '91936393#0', time 49790.00.
-Warning: Vehicle '87385427#3_0_39349403#0_1.qPKW.900.35' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=55383.00.
-Warning: Teleporting vehicle '555903535#0_0_39349403#0_1.qPKW.900.115'; collision with vehicle '555903535#0_0_39349403#0_1.qPKW.900.114', lane='91936393#1_1', gap=-0.91, time=56458.00 stage=move.
-Warning: Vehicle '555903535#0_0_39349403#0_1.qPKW.900.115' ends teleporting on edge '39349403#0', time 56458.00.
-Warning: Teleporting vehicle '161226594#0_1_615690096_1.qPKW.950.13'; collision with vehicle '161226594#0_2_889606511#0_2.qPKW.950.5', lane='-161160022#0-AddedOffRampEdge_2', gap=-0.78, time=57360.00 stage=move.
-Warning: Vehicle '161226594#0_1_615690096_1.qPKW.950.13' ends teleporting on edge '157623998#0', time 57360.00.
-Warning: Teleporting vehicle '-157593576#1_0_157613716#0_0.qPKW.950.113'; collision with vehicle '25625330#0_1_101754539#0_0.qPKW.950.84', lane='161082232#2_1', gap=-0.50, time=59512.00 stage=move.
-Warning: Vehicle '-157593576#1_0_157613716#0_0.qPKW.950.113' ends teleporting on edge '136100513#0', time 59512.00.
-Warning: Teleporting vehicle '696003182_0_889606511#0_0.qPKW.950.134'; collision with vehicle '157593575#1_0_889606511#0_1.qPKW.950.125', lane='161137084#1_1', gap=-0.08, time=59784.00 stage=move.
-Warning: Vehicle '696003182_0_889606511#0_0.qPKW.950.134' ends teleporting on edge '161137084#2', time 59784.00.
-Warning: Teleporting vehicle '25625190#0_1_136100508#0_2.qPKW.1000.5'; collision with vehicle '25625190#0_0_136100485#0_0.qPKW.1000.2', lane='135454816#4_1', gap=-0.08, time=60193.00 stage=move.
+Warning: Vehicle '-157593576#1_0_-337734044#8_0.qPKW.800.19' performs emergency stop at the end of lane '161082232#2_0' because of a red traffic light (decel=-13.45, offset=4.45), time=49195.00.
+Warning: Vehicle '35974132#0_0_161226595_0.qPKW.800.37' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=49422.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_0.qPKW.800.42'; collision with vehicle '204940068_0_161226595_1.qPKW.800.24', lane='135438818#0_0', gap=-0.30, time=49639.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_0.qPKW.800.42' ends teleporting on edge '161160022#0-AddedOffRampEdge', time=49639.00.
+Warning: Teleporting vehicle '25625190#0_1_136100508#0_2.qPKW.950.4'; collision with vehicle '25625190#0_0_135454817#2_1.qPKW.950.2', lane='135454816#4_1', gap=-0.65, time=57207.00 stage=move.
+Warning: Vehicle '25625190#0_1_136100508#0_2.qPKW.950.4' ends teleporting on edge '136100508#0', time=57207.00.
+Warning: Teleporting vehicle '-136100485#1_0_136100509_1.qPKW.950.5'; collision with vehicle '774954185#1_0_328796535#1_0.qPKW.950.8', lane='161082231#0_0', gap=-0.04, time=57229.00 stage=move.
+Warning: Vehicle '-136100485#1_0_136100509_1.qPKW.950.5' ends teleporting on edge '161137081#0', time=57229.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_2.qPKW.950.29'; collision with vehicle '35974132#0_0_161226595_0.qPKW.950.18', lane='135438818#0_1', gap=-0.69, time=57669.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_2.qPKW.950.29' ends teleporting on edge '161160022#0-AddedOffRampEdge', time=57669.00.
+Warning: Vehicle '437256225#2_0_135454817#2_0.qPKW.950.26' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=58476.00.
+Warning: Vehicle '437256225#2_0_135454817#2_0.qPKW.950.26' performs emergency stop at the end of lane '135454816#4_0' because of a red traffic light (decel=-9.70, offset=0.70), time=58476.00.
+Warning: Teleporting vehicle '315081896#0_0_39349403#0_1.qPKW.950.96'; collision with vehicle '619108490#0_0_135454817#2_1.qPKW.950.75', lane='91807518#3_2', gap=-0.54, time=59690.00 stage=move.
+Warning: Vehicle '315081896#0_0_39349403#0_1.qPKW.950.96' ends teleporting on edge '161082233#0', time=59690.00.
+Warning: Vehicle '25625190#0_0_136100485#0_0.qPKW.1000.28' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=61488.00.
+Warning: Teleporting vehicle '35974132#0_0_161226595_2.qPKW.1000.73'; collision with vehicle '35974132#0_0_161226595_2.qPKW.1000.74', lane='135438818#0_2', gap=-0.26, time=61742.00 stage=move.
+Warning: Vehicle '35974132#0_0_161226595_2.qPKW.1000.73' ends teleporting on edge '161160022#0-AddedOffRampEdge', time=61742.00.
+Warning: Vehicle '-157593576#1_0_-337734044#8_0.qPKW.1000.65' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=62107.00.
+Warning: Vehicle '-157593576#1_0_-337734044#8_0.qPKW.1000.80' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=62585.00.
+Warning: Vehicle '705407675#0_0_889606511#0_1.qPKW.1050.28' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=63817.00.
+Warning: Teleporting vehicle '136100518#0_1_39349403#0_2.qPKW.1050.41'; collision with vehicle '136100518#0_1_39349403#0_2.qPKW.1050.43', lane='91936393#1_1', gap=-0.08, time=63890.00 stage=move.
+Warning: Vehicle '136100518#0_1_39349403#0_2.qPKW.1050.41' ends teleporting on edge '39349403#0', time=63890.00.
+Warning: Teleporting vehicle '135454822#4-AddedOffRampEdge_2_39349403#0_2.qPKW.1050.113'; collision with vehicle '135454822#4-AddedOffRampEdge_1_39349403#0_2.qPKW.1050.43', lane='135454822#4-AddedOffRampEdge_2', gap=-0.26, time=65480.00 stage=move.
+Warning: Vehicle '135454822#4-AddedOffRampEdge_2_39349403#0_2.qPKW.1050.113' ends teleporting on edge '39349403#0', time=65483.00.
+Warning: Teleporting vehicle '135454822#4-AddedOffRampEdge_0_39349403#0_2.qPKW.1100.18'; collision with vehicle '135454822#4-AddedOffRampEdge_1_889606511#0_1.1.qPKW.1100.6', lane='135454822#4-AddedOffRampEdge_0', gap=-0.33, time=66931.00 stage=move.
+Warning: Vehicle '135454822#4-AddedOffRampEdge_0_39349403#0_2.qPKW.1100.18' ends teleporting on edge '39349403#0', time=66933.00.
+Warning: Teleporting vehicle '696003182_0_889606511#0_0.qPKW.1100.77'; collision with vehicle '161226594#0_2_889606511#0_2.qPKW.1100.24', lane='161137084#1_2', gap=-0.44, time=67268.00 stage=move.
+Warning: Vehicle '696003182_0_889606511#0_0.qPKW.1100.77' ends teleporting on edge '161137084#2', time=67268.00.
+Warning: Teleporting vehicle '555903535#0_0_39349403#0_1.qPKW.1100.67'; collision with vehicle '555903535#0_0_39349403#0_1.qPKW.1100.66', lane='91936393#1_1', gap=-0.57, time=67567.00 stage=move.
+Warning: Vehicle '555903535#0_0_39349403#0_1.qPKW.1100.67' ends teleporting on edge '39349403#0', time=67567.00.
+Simulation ended at time: 86400.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 72.37s
+ Real time factor: 1193.9
+ UPS: 112522.012492
+Vehicles: 
+ Inserted: 69254
+ Running: 0
+ Waiting: 0
+Teleports: 22 (Collisions: 22)
+Emergency Stops: 5
+Statistics (avg):
+ RouteLength: 1529.16
+ Speed: 13.36
+ Duration: 117.58
+ WaitingTime: 19.29
+ TimeLoss: 53.11
+ DepartDelay: 2.60
+
