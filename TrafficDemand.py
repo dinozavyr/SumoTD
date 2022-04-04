@@ -2,6 +2,7 @@ import subprocess
 import sys
 import os
 import xml.etree.ElementTree as ET
+from lxml import etree
 import shutil
 import pandas as pd
 import OutputFlows as OF
@@ -108,14 +109,20 @@ class TrafficDemand:
                 for subel in el:
                     if subel.tag == 'routing-algorithm':
                         subel.set('value', algorithm)
-            r = config.replace('<vType id="vdist1" vClass="passenger" color="1,0,0"', '').replace('/>',
-                                                                                                  '') + 'interval="' + str(
-                interval) + '/" alg=/"' + algorithm
+            r = config.replace('<vType id="vdist1" vClass="passenger" color="1,0,0"', '').replace('/>','') + 'interval="' + str(interval) + '/" alg=/"' + algorithm
             tree.write(paths.out_path + 'duaCFG.xml')
             self.CallDuaRouter()
             self.CallSumo()
             df = df.append(self.CalculateResult(r), ignore_index=True)
         return df
+
+    def ConfigDua2(self, inteval, config):
+        tree = etree.parse(paths.out_path + 'duaCFG.xml')
+        for el in tree.xpath('/configuration/processing/routing-algorithm'):
+            el.set('value','qqqqqqqq')
+        pass
+        print(etree.tostring(tree))
+        return
 
     def CalculateResult(self, config):
         StatTree = ET.parse(paths.simulation_path + 'stat.xml')

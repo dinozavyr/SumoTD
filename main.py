@@ -15,6 +15,7 @@ for cfg in configFiles:
         td.CalculateWiedemann(paths.out_path,i)
 '''
 td = TD.TrafficDemand(paths.config_path+"wcfg.csv")
+td.ConfigDua2("","")
 td.CallFLowRouter(50)
 td.CalculateKraussOrig1(paths.out_path,50)
 
