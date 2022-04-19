@@ -85,7 +85,7 @@ class TrafficDemand:
             conf_path=Path.cwd() / Path('simulation/Data/Config/wcfg.csv'),
             output_path=Path.cwd() / Path('simulation/Data/Out/route50.xml'),
             flows_path=Path.cwd() / Path('simulation/Data/Out/flow50.xml'),
-            interval=50
+            interval=interval
         )
         logger.info("Starting flowrouter with command: {}".format(cmd))
         subprocess.run(cmd, shell=True)
